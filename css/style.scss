@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mani-cont{
+    height: 100vh;
+    background-color: #2C3D4D;
+  /*********Left Section********/
+    .left_sec{
+        height: 100%;
+        width: 20%;
+        color: #fff;
+        background-color: #263442;
+        .left-nav{
+            background-color: #121c257e;
+            height: 80px;
+            .logo{
+                color: #fff;
+            }
+        }
+        .item_gap{
+            width: 70%;
+        }
+        .item{
+            font-size: 19px;
+        }
+        .item img{
+            width: 14px;
+            height: 14px;
+            margin-top: -10px;
+        }
+
+        //Teacher items
+        .item_li{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up1{
+            display: none;
+        }
+
+        //Form items
+        .item_li2{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up2{
+            display: none;
+        }
+
+        //Notifications items
+        .item_li3{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up3{
+            display: none;
+        }
+
+        //Events items
+        .item_li4{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up4{
+            display: none;
+        }
+
+        //Maps items
+        .item_li5{
+            font-size: 14px;
+            display: none;
+        }
+        .item_gap_map{
+            width: 75%;
+        }
+        .arrow-up5{
+            display: none;
+        }
+
+        //Charts items
+        .item_li6{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up6{
+            display: none;
+        }
+        .login_rt{
+           display: none;
+        }
+        .menu_ico{
+            width: 50px;
+            display: none;
+        }
+        .x_ico{
+            width: 25px;
+            display: none;
+        }
+
+        //Dash Menu
+        .dash_cont{
+            background-color: #263442;
+            height:100% ;
+        }
+    }
+
+   /******Right Section**********/
+    .right_sec{
+        right: 0;
+        height: 100%;
+        width: 80%;
+        background-color: #2C3D4D;
+        .right-nav{
+            height: 80px;
+            background-color: #21303f79;
+            .logo{
+                color: #fff;
+            }
+            .user_img{
+                width: 45px;
+                margin-top: -20px;
+                border: 3px solid rgb(219, 219, 219);
+            } //user Image
+        }
+        .right_op{
+            right: 2%;
+            gap: 30px;
+        }
+        .alert_icon{
+            width: 30px;
+            height: 30px;
+        }
+        .login{
+            text-decoration: none;
+            font-size: 23px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .inner_sec{
+            color: #92979b79;
+            p{
+                color: #fff;
+            }
+            .card{
+                width: 20%;
+                height: 40vh;
+                background-color: rgba(255, 255, 255, 0.274);
+            }
+        }
+
+    }
+}

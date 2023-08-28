@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mani-cont {
+  height: 100vh;
+  background-color: #2C3D4D;
+  /*********Left Section********/
+  /******Right Section**********/
+}
+.mani-cont .left_sec {
+  height: 100%;
+  width: 20%;
+  color: #fff;
+  background-color: #263442;
+}
+.mani-cont .left_sec .left-nav {
+  background-color: rgba(18, 28, 37, 0.4941176471);
+  height: 80px;
+}
+.mani-cont .left_sec .left-nav .logo {
+  color: #fff;
+}
+.mani-cont .left_sec .item_gap {
+  width: 70%;
+}
+.mani-cont .left_sec .item {
+  font-size: 19px;
+}
+.mani-cont .left_sec .item img {
+  width: 14px;
+  height: 14px;
+  margin-top: -10px;
+}
+.mani-cont .left_sec .item_li {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up1 {
+  display: none;
+}
+.mani-cont .left_sec .item_li2 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up2 {
+  display: none;
+}
+.mani-cont .left_sec .item_li3 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up3 {
+  display: none;
+}
+.mani-cont .left_sec .item_li4 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up4 {
+  display: none;
+}
+.mani-cont .left_sec .item_li5 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .item_gap_map {
+  width: 75%;
+}
+.mani-cont .left_sec .arrow-up5 {
+  display: none;
+}
+.mani-cont .left_sec .item_li6 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up6 {
+  display: none;
+}
+.mani-cont .left_sec .login_rt {
+  display: none;
+}
+.mani-cont .left_sec .menu_ico {
+  width: 50px;
+  display: none;
+}
+.mani-cont .left_sec .x_ico {
+  width: 25px;
+  display: none;
+}
+.mani-cont .left_sec .dash_cont {
+  background-color: #263442;
+  height: 100%;
+}
+.mani-cont .right_sec {
+  right: 0;
+  height: 100%;
+  width: 80%;
+  background-color: #2C3D4D;
+}
+.mani-cont .right_sec .right-nav {
+  height: 80px;
+  background-color: rgba(33, 48, 63, 0.4745098039);
+}
+.mani-cont .right_sec .right-nav .logo {
+  color: #fff;
+}
+.mani-cont .right_sec .right-nav .user_img {
+  width: 45px;
+  margin-top: -20px;
+  border: 3px solid rgb(219, 219, 219);
+}
+.mani-cont .right_sec .right_op {
+  right: 2%;
+  gap: 30px;
+}
+.mani-cont .right_sec .alert_icon {
+  width: 30px;
+  height: 30px;
+}
+.mani-cont .right_sec .login {
+  text-decoration: none;
+  font-size: 23px;
+  color: #fff;
+  font-weight: 600;
+}
+.mani-cont .right_sec .inner_sec {
+  color: rgba(146, 151, 155, 0.4745098039);
+}
+.mani-cont .right_sec .inner_sec p {
+  color: #fff;
+}
+.mani-cont .right_sec .inner_sec .card {
+  width: 20%;
+  height: 40vh;
+  background-color: rgba(255, 255, 255, 0.274);
+}/*# sourceMappingURL=style.css.map */

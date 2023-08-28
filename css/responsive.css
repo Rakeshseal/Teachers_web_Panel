@@ -1,0 +1,124 @@
+@media (max-width: 990px) {
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .right_sec .inner_sec .card {
+    width: 58%;
+    height: 16vh;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+  .mani-cont .right_sec .login {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .dash {
+    display: flex;
+    flex-direction: column;
+  }
+  .dash img {
+    margin-left: 9px;
+  }
+  .dash .text-light {
+    font-size: 16px;
+  }
+  .tx-2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 599px) and (max-width: 799px) {
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 68%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    width: 34%;
+    color: #fff;
+    background-color: #263442;
+  }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec .left-nav .logo {
+    color: #fff;
+    font-size: 15px;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    width: 30%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .login_rt {
+    display: block;
+  }
+  .mani-cont .right_sec .login {
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .dash_cont {
+    display: none;
+    background-color: #263442;
+    height: 100%;
+  }
+}
+@media (max-width: 599px) {
+  .mani-cont .left_sec .menu_ico {
+    width: 50px;
+    display: block;
+  }
+  .mani-cont .left_sec .dash_cont {
+    background-color: #263442;
+    height: 100%;
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 60%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .left-nav .logo {
+    color: #fff;
+    font-size: 15px;
+  }
+  .mani-cont .left_sec .login_rt {
+    display: block;
+  }
+  .mani-cont .right_sec .login {
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+}/*# sourceMappingURL=responsive.css.map */
